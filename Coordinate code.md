@@ -1,4 +1,4 @@
-<code>using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -42,7 +42,6 @@ namespace koordinat_belirle
                 onaylabut.Visible = false; //onayla buttonun görünürlüğünü kapat
                 this.Controls.Add(iptalbut); //İptal buttonun Form'da kontrolüne izin ver 
                 MessageBox.Show(String.Format("Başlangıç ucu \n'{0}' olarak belirlendi. \nBitiş ucunu seçin.",point),"Seçim İşlemi",MessageBoxButtons.OK,MessageBoxIcon.Asterisk); // Bilgilendirme mesajı
-
             }
             else if (buttonsay == 2) //Eğer Form'a 2 kere tıklandıysa
             {
@@ -101,4 +100,3 @@ namespace koordinat_belirle
         }
     }
 }
-</code>
